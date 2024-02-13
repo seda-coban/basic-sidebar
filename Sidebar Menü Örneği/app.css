@@ -1,0 +1,58 @@
+body{
+    background-image:url(roxana-maria-c-90QqQt0ow-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  "Arvo", serif;
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(193, 141, 147,0.7);
+    width: 300px;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #4f2b2f;
+    
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+nav ul li:last-child{
+    border: none;
+}
+
+nav ul li:hover{
+    background-color: #894a52;
+    padding: 20px 30px;
+    
+}
+
+nav ul li a {
+    color: #ecdcde;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+nav ul li span {
+    float: right;
+    color: #4f2b2f ;
+}
